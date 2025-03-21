@@ -36,6 +36,7 @@ export default function Home() {
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
         <h1 className="text-4xl font-bold mb-8 text-center">Supabase Connection Test</h1>
         <div className="bg-white/30 p-8 rounded-lg shadow-lg">
+          <h2 className="text-3xl font-bold mb-6 text-center text-blue-600">UPDATE</h2>
           <p className="text-xl text-center mb-4">{message}</p>
           
           {testData.length > 0 && (
